@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--title = entre 55 y 65 caracteres-->
+    <title>Aprendiendo HTML</title>
+    <!-- description = no mas de 165 caracteres-->
+    <meta
+      name="description"
+      content="En esta pagina estamos aprendiendo los fundamentos de HTML con @jonmircha">
+      <style>
+        h2{
+          color: orangered;
+        }
+      </style>
+      <link rel="stylesheet" href="assets/estilos.css">
+  </head>
+
+  <body>
+    
+    <h2 id="inicio">Aprendiendo HTML</h2>
+    <!--esto es un comentario-->
+    <!-- Enlaces de la documentación de HTML: - https://www.w3.org/html/ -
+    https://html.spec.whatwg.org/ - https://www.w3.org/blog/news/archives... -
+    https://developer.mozilla.org/es/docs... - https://htmlreference.io/ 
+    https://desarrolloweb.com/articulos/1...-->
+
+    <p>Hola, aqui estoy escribiendo mi primer codigo HTML ☺</p>
+    <p>Aprendiendo sobre Diseño Web</p>
+    <h3>Temario del Curso</h3>
+    <ul>
+      <li><a href="index.html#encabezados">Encabezados HTML</a></li>
+      <li><a href="index.html#texto-basico">Etiquetas de Texto Basicas</a></li>
+      <li><a href="index.html#texto-semantico">Etiquetas de Texto Semánticas</a></li>
+      <li><a href="index.html#etiqueta-salto">Etiquetas de Salto</a></li>
+      <li><a href="index.html#etiqueta-formateo">Etiquetas de Formateo</a></li>
+      <li><a href="index.html#semantica-estructural">Etiquetas Semánticas Estructurales</a></li>
+      <li><a href="index.html#bloque-vs-linea">Etiquetas de Bloque VS Etiquetas de Linea</a></li>
+      <li><a href="index.html#estilo-css">Estilos CSS en HTML</a></li>
+      <li><a href="index.html#scripts-html">Scripts en HTML</a></li>
+      <li><a href="index.html#imagenes">Imágenes</a></li>
+      <li><a href="index.html#figuras">Figuras</a></li>
+      <li><a href="index.html#lista-ordenada">Listas Ordenadas</a></li>
+      <li><a href="index.html#lista-desordenada">Listas Desordenadas</a></li>
+      <li><a href="index.html#lista-definicion">Listas de Definición</a></li>
+      <li><a href="index.html#tablas">Tablas</a></li>
+      <li><a href="index.html#enlaces">Enlaces</a></li>
+      <li><a href="index.html#"></a></li>
+      <li><a href="index.html#"></a></li>
+    </ul>
+    <hr />
+    <h2 id="encabezados">Encabezados HTML</h2>
+    <h1>Encabezado de nivel 1- Solo puede existir un Encabezado nivel 1 </h1>
+    <h2>Encabezado de nivel 2</h2>
+    <h3>Encabezado de nivel 3</h3>
+    <h4>Encabezado de nivel 4</h4>
+    <h5>Encabezado de nivel 5</h5>
+    <h6>Encabezado de nivel 6</h6>
+    <a href="index.html#inicio">☝️</a>
+    <hr />
+    <h2 id="texto-basico">Etiquetas de Texto Basicas</h2>
+    <p>un parrafo</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+      cupiditate placeat porro dolore voluptatum eveniet, fugit quia molestiae,
+      corrupti consequuntur nesciunt! Amet nihil ut facere similique quasi
+      corrupti sunt eligendi?
+    </p>
+    <p>
+      Palabras en: <b>negrita</b>, <i>italica</i>, <u>subrayado</u>, e=mc
+      <sup>2</sup>h<sup>0</sup>, <mark>marcar texto</mark>,
+      <small>letras pequeñas</small>
+    </p>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="texto-semantico">Etiquetas de Texto Semánticas</h2>
+    <p>
+      <strong>Este texto es importante</strong>
+      <em>Este texto hace enfasis</em>
+    </p>
+    <blockquote>Yo solo se, que no se nada</blockquote>
+    <cite> Sócrates</cite>
+    <br>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiqueta-salto">Etiquetas de Saltos</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+      Vel recusandae quibusdam deleniti quod voluptates minus dignissimos amet
+      iste dolorem repellendus <br>
+      facere quas molestiae obcaecati ipsum deserunt vero qui, nemo corrupti!
+    </p>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="etiqueta-formateo">Etiquetas de Formateo</h2>
+    <p>
+      <pre>
+      Tareas por Hacer 
+      -HTML 
+        -Terminar de grabar las secciones de este curso.
+        -Editar en un solo video 
+      -Css 
+        -Comenzar a grabar secciones Css 
+        -Editar en un sólo Video
+      </pre>
+      <p>
+        <code> Este texto esta en formato de código</code>
+      </p>
+      <p>
+        <pre>
+          <code>
+              ACERCA DE NOSOTROS
+            Términos y Condiciones »
+            Política de Privacidad »
+            Preguntas Frecuentes »
+                  Comercial »
+          </code>
+        </pre>
+      </p>
+      <a href="index.html#inicio">☝️</a>
+      <hr>
+      <h2 id="semantica-estructural">Etiquetas Semánticas Estructurales</h2>
+      <div>
+        <mark>Div-Es una etiqueta contenedora que no tiene semántica</mark>
+      </div>
+      <br>
+      <Head><b>Header</b>- Cabecero de un sitio web o de una seccíon</Head>
+      <main><b>main</b>- Define la seccíon principal del documento, sólo puede existir una etiqueta main por documento.</main>
+      <footer><b>footer</b>- Pié de página de un sitio web o de una seccíon</footer>
+      <nav><b>nav</b>- Representa una navegacíon</nav>
+      <article><b>article</b>- Representa una seccíon de autocontenido (que por sí sola se explica)</article>
+      <aside> <b>aside</b>- Representa contenido complementario o secundario</aside>
+      <section> <b>section</b>- Representa una seccíon de contenido genérico</section>
+      <address><b>address</b>- Representa una dirección física</address>
+    </p>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="bloque-vs-linea">Etiquetas de Bloque VS Etiquetas de Linea</h2>
+    <div style="background-color: yellow;color: red;">La etiqueta de bloque por excelencia es la div, una etiqueta de bloque es aquella que genera saltos de linea con sus etiquetas hermanas</div>
+    <span style="background-color: greenyellow;">La etiqueta de linea por exelencia es la span, una etiqueta de linea solo ocupa el espacio necesario que tiene su contenido</span>
+    <span>Hola, soy otra span</span>
+    <br>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="estilo-css">Estilos CSS en HTML</h2>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="scrips-html">Scripts en HTML</h2>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="imagenes">Imágenes</h2>
+    <img src="img/Tabla Periodica.jpg" alt="Tabla Periodica de los Elementos HTML" >
+    <img src="img/Bob Esponja.png" alt="Bob Esponja">
+    <img src="img/Arbol de Navidad.gif" alt="Arbol de Navidad">
+    <img src="img/facebook.svg" alt="Facebook" width="250" height="250">
+    <br>
+    <img src="img/Youtube.svg" alt="Youtube" width="250" height="250">
+    <br>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="figuras">Figuras</h2>
+    <figure>
+      <img src="img/Tabla Periodica.jpg" alt="Tabla de los Elementos HTML">
+      <figcaption>Tabla de los Elementos HTML</figcaption>
+    </figure>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="lista-ordenada">Listas Ordenadas</h2>
+    <h3>Las estaciones del Año</h3>
+    <ol>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol start="3">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol reversed>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol type="I">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="lista-desordenada">Listas Desordenadas</h2>
+    <h3>Cosas por hacer</h3>
+    <ul>
+      <li>Terminar de grabar los fragmentos del curso de HTML</li>
+      <li>Editar el video final</li>
+      <li>Subirlo a Youtube</li>
+    </ul>
+    <ul type="circle">
+      <li>Terminar de grabar los fragmentos del curso de HTML</li>
+      <li>Editar el video final</li>
+      <li>Subirlo a Youtube</li>
+    </ul>
+    <ul type="square">
+      <li>Terminar de grabar los fragmentos del curso de HTML</li>
+      <li>Editar el video final</li>
+      <li>Subirlo a Youtube</li>
+    </ul>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="lista-definicion">Listas de Definición</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+      <dt>CSS</dt>
+      <dd>Es un lenguaje de definicion que da estilos al código HTML</dd>
+      <dt>JavaScript</dt>
+      <dd>Es el lenguaje de la Web</dd>
+    </dl>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="tablas">Tablas</h2>
+    <table>
+      <tr>
+        <td>Nombre</td>
+        <td>Constelación</td>
+        <td>Tipo</td>
+      </tr>
+      <tr>
+        <td>Ikki</td>
+        <td>Fénix</td>
+        <td>Bronce</td>
+      </tr>
+      <tr>
+        <td>Shaina</td>
+        <td>Ofiuco</td>
+        <td>Plata</td>
+      </tr>
+      <tr>
+        <td>Saga</td>
+        <td>Géminis</td>
+        <td>Dorado</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Tabla de los Santos de Atena</th>
+        </tr>
+        <tr>
+          <th>Nombre</th>
+          <th>Constelación</th>
+          <th>Tipo</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Ikki</td>
+        <td>Fénix</td>
+        <td>Bronce</td>
+      </tr>
+      <tr>
+        <td>Mystry</td>
+        <td>Lagarto</td>
+        <td>Plata</td>
+      </tr>
+      <tr>
+        <td>Saga</td>
+        <td>Géminis</td>
+        <td>Dorado</td>
+      </tr>
+      <tr>
+        <td>Shaina</td>
+        <td rowspan="2">Ofiuco</td>
+        <td>Plata</td>
+      </tr>
+      <tr>
+        <td>Odiseo</td>
+        <td>Dorado</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3"><small>Saint Seiya fue creado por Masami Kurumada</small></th>
+        </tr>
+      </tfoot>
+    </table>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="Hola.html">Hacia la pagina Hola</a>
+    <br>
+    <a href="https://jonmircha.com/" target="_blank" rel="nofollow">Visita mi sitio Web JonMircha.com</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=-oK6zL01fNM&t=16872s" target="_blank"><img src="img/Youtube.svg" alt="Ir hacia mi canal de youtube"width="50" height="50"></a>
+    <br>
+    <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" alt="Ingresa a tu cuenta de Facebook" width="50" height="50"></a>
+    <br>
+    <a href="mailto:hola@jonmircha.com" target="_blank">Enlace a correo electronico</a>
+    <br>
+    <a href="tel:541157618255" target="_blank">Enlace a Telefono</a>
+    <br>
+    <a href="https://api.whatsapp.com/send?phone=541157618255&text=Hola, este es un mensaje automatico desde un link creado en HTML." target="_blank">Enlace hacia Whatsapp</a>
+    <br>
+    <a href="index.html#inicio">☝️</a>
+    <hr>
+<br><br><br><br>
+    <script>
+      console.log("Hola estamos aprendiendo HTML ");
+    </script>
+    <script src="assets/codigos.js"></script>
+  </body>
+</html>
+<!-- tiempo 4:12:00-->
